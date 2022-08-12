@@ -9,6 +9,7 @@ import View from './Components/View'
 import Footer from './Components/Footer'
 import {Routes,Route} from 'react-router-dom'
 import Navbar from './Components/Navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
