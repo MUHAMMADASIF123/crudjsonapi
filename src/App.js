@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 // import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Active from "./Components/Active";
 import Navbar from "./Components/Navbar";
 import Archive from './Components/Archive'
