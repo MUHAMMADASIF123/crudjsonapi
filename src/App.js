@@ -1,5 +1,14 @@
 import React from "react";
 import './App.css';
+import Active from "./Components/Active";
+import Archive from './Components/Archive'
+import Draft from './Components/Draft'
+import Addusers from './Components/Addusers'
+import Editeuser from './Components/Editeuser'
+import View from './Components/View'
+import Footer from './Components/Footer'
+import {Routes,Route} from 'react-router-dom'
+import Navbar from './Components/Navbar'
 
 function App() {
   return (
