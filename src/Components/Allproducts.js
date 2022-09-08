@@ -3,16 +3,13 @@ import axios from "axios";
 // import '../App.css';
 import { Link } from "react-router-dom";
 
-
-const Active = () => {
-  
+const Allproducts = () => {
   const [users, setUser] = useState([]);
 
   useEffect(() => {
     loadUsers();
   }, []);
 
-  
   const deleteUser = async (id) => {
     await axios.delete(`http://localhost:3003/users/${id}`);
     loadUsers();
@@ -23,34 +20,27 @@ const Active = () => {
     setUser(result.data);
     // setCount(result.data.length)
   };
- 
+
   return (
-    <div className="vh-100">
-  <div className="row  vh-100 " >
- 
-    <div className="col-12 text-center">
-      <div className="py-4">
-        <table className="table table table-striped border shadow " id="myTable">
-          <thead>
-            <tr>
-              <th scope="col">Student_ID</th>
-              <th scope="col">Student Name</th>
-              <th scope="col">Roll_Number</th>
-              <th scope="col">Start Data</th>
-              
-              <th>Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            {users.map((emp, index) => (
-              <tr>
-                <th scope="row">RID-00{index + 1}</th>
-                <td>{emp.name}</td>
-                {/* <td>{count}</td> */}
-                <td>{emp.num}</td>
-                <td>{emp.date}</td>
-                
-                <td>
+    <>
+      <div className="d-flex justify-content-center mt-2">
+        <Link className="btn btn-outline-primary" to="/users/add">
+          Add New Product
+        </Link>
+      </div>
+      <div className="container mt-5">
+            <div className="row">
+      {users.map((emp, index) => (
+        <>
+         
+              <div className="col-md-4">
+              <div class="card" >
+  <img src={emp.Img} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">{emp.id}</h5>
+    <p class="card-text">{emp.name}</p>
+  <h1 class="card-text">${emp.price}</h1>
+  <div>
                   <Link className="btn btn-primary ms-2" to={`/users/${emp.id}`}>
                     View
                   </Link>
@@ -67,19 +57,18 @@ const Active = () => {
                   >
                     Delete
                   </Link>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+  </div>
+  </div>
+</div>
+              </div>
+          
+        </>
+          
+      ))}
       </div>
- 
-    </div>
-    </div>
-    </div>
+          </div>
+    </>
   );
-  
 };
 
-
-export default Active;
+export default Allproducts;

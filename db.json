@@ -1,84 +1,52 @@
 {
   "users": [
     {
-      "name": "asif",
-      "status": "Back-End Developer",
-      "status1": "UI/UX Design",
-      "Other": "",
-      "text": "",
-      "date": "",
-      "num": "2",
-      "id": 29
+      "name": "test4",
+      "id": "2",
+      "price": "2",
+      "Img": "/images/p1.jpg"
     },
     {
-      "name": "asif",
-      "status": "UI/UX Design",
-      "status1": "",
-      "Other": "",
-      "text": "",
-      "date": "2022-06-30",
-      "num": "2",
-      "id": 30
+      "name": "test3",
+      "id": "3",
+      "price": "3",
+      "Img": "/images/gcsMap.png"
     },
     {
-      "name": "cfcfgcg",
-      "status": "qd",
-      "status1": "",
-      "Other": "fas",
-      "text": "",
-      "date": "",
-      "num": "2",
-      "id": 32
+      "name": "test4",
+      "id": "4",
+      "price": "4",
+      "Img": "/images/p2.jpg"
     },
     {
-      "name": "asif",
-      "status": "",
-      "status1": "",
-      "Other": "",
-      "text": "",
-      "date": "2022-06-30",
-      "num": "2",
-      "id": 33
+      "name": "test5",
+      "id": "5",
+      "price": "5",
+      "Img": "/images/p3.jpg"
     },
     {
-      "name": "asifalibro",
-      "status": "",
-      "status1": "",
-      "Other": "",
-      "text": "",
-      "date": "2022-06-24",
-      "num": "2",
-      "id": 34
+      "name": "test6",
+      "id": "6",
+      "price": "6",
+      "Img": "/images/p3.jpg"
     },
     {
-      "name": "cfcfgcg",
-      "status": "",
-      "status1": "",
-      "Other": "",
-      "text": "",
-      "date": "2022-06-30",
-      "num": "2",
-      "id": 35
+      "name": "text7",
+      "id": "7",
+      "price": "7",
+      "Img": "/images/p3.jpg"
     },
     {
-      "name": "cfcfgcg",
-      "status": "Front-End Developer",
-      "status1": "Back-End Developer",
-      "Other": "zxvz",
-      "text": "xcgfcf",
-      "date": "2022-06-29",
-      "num": "23",
-      "id": 36
+      "name": "pata ni",
+      "id": "12",
+      "price": "1000",
+      "Img": "/images/p3.jpg"
     },
     {
-      "name": "JANE",
-      "status": "Back-End Developer",
-      "status1": "Front-End Developer",
-      "Other": "zxvz",
-      "text": "asdadsas",
-      "date": "2022-06-24",
-      "num": "2",
-      "id": 37
+      "name": "",
+      "id": "K48aqww",
+      "price": "",
+      "Img": "/images/p3.jpg"
     }
   ]
 }
